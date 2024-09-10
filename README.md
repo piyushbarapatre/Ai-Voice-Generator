@@ -8,15 +8,11 @@ https://github.com/user-attachments/assets/b3bf2d10-fc74-4f3b-a755-1016030b9ed8
 - Downloadable Audio: Users can download their converted speech as an MP3 file.
 - Efficient File Handling: Utilizes UUIDs for unique file naming and the fs module for managing files.
 
-![TextToSpeech (2)](https://github.com/user-attachments/assets/813d80b4-37a8-41d0-8767-829dab469d5c)
-
 # Technologies:
 - Frontend: React.js for a responsive, user-friendly interface.
 - Backend: Express.js for API management and file operations.
 - APIs: gTTS for speech synthesis.
 - File Management: UUID for unique identification and fs for handling file storage.
-
-![TextToSpeech](https://github.com/user-attachments/assets/3977a091-bb8b-4a05-b919-9682286de06b)
 
 # Setup:
 - Frontend: Start with npm start in the React project directory.
