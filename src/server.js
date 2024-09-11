@@ -4,7 +4,6 @@ const path = require("path");
 const { v4: uuidv4 } = require("uuid");
 const fs = require("fs");
 const cors = require("cors");
-// const { error } = require("console");
 const app = express();
 const port = 5000;
 
@@ -31,7 +30,7 @@ app.post("/api/convert", (req, res) => {
           .status(500)
           .json({ error: "Error converting text to speech" });
       }
-      res.json({ audioUrl: `http://192.168.29.42:${port}/audio/${filename}` });
+      res.json({ audioUrl: `http://localhost:${port}/audio/${filename}` });
     });
   } catch (error) {
     console.error(error);
