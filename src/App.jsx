@@ -9,7 +9,7 @@ const App = () => {
   const handleConvertToSpeech = async () => {
     try {
       const response = await axios.post(
-        "http://192.168.29.42:5000/api/convert",
+        "http://localhost/api/convert",
         {
           text,
           language,
